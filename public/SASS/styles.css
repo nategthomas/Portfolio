@@ -1,0 +1,81 @@
+@media all and (min-width: 960px) {
+  body {
+    font-size: 18px; } }
+@media all and (max-width: 959px) and (min-width: 600px) {
+  body {
+    font-size: 16px; } }
+@media all and (max-width: 599px) {
+  body {
+    font-size: 12px; } }
+body {
+  margin: 0px; }
+
+.nav {
+  padding: 10px 0px 10px 0px;
+  background-color: #104E8B;
+  text-align: center; }
+  .nav .wrapper-a {
+    text-align: center;
+    max-width: 800px;
+    margin: 0;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box; }
+    .nav .wrapper-a a {
+      text-decoration: none;
+      color: white;
+      margin: .8em;
+      font-size: 140%; }
+
+.header {
+  background-color: #4682B4;
+  padding: 8% 0;
+  min-height: 80px;
+  font-family: sans-serif; }
+  .header .wrapper-b {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    color: white; }
+    .header .wrapper-b #name {
+      margin: -6px;
+      display: inline-block;
+      font-size: calc(125% + 5vw);
+      white-space: nowrap; }
+    .header .wrapper-b #title {
+      color: #CAE1FF;
+      word-spacing: .5em;
+      letter-spacing: .2em;
+      font-size: calc(45% + 1.3vw); }
+
+.container-prj {
+  text-align: center;
+  margin: 0;
+  padding: 25px 5px 20px 5px;
+  font-family: "brandon-grotesque",sans-serif; }
+  .container-prj .wrapper-prj {
+    max-width: 450px;
+    padding: 30px 15px 30px 15px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    vertical-align: top; }
+    .container-prj .wrapper-prj a {
+      color: inherit;
+      text-decoration: inherit;
+      cursor: pointer; }
+      .container-prj .wrapper-prj a .container-img {
+        border-radius: 5px;
+        box-shadow: 0 0 0 1px #cecece, 0 2px 0 1px #cecece;
+        overflow: hidden; }
+        .container-prj .wrapper-prj a .container-img .prj-img {
+          height: auto;
+          width: 100%; }
+      .container-prj .wrapper-prj a .prj-title {
+        font-size: 200%;
+        margin: 20px; }
+      .container-prj .wrapper-prj a .prj-desc {
+        color: #C1C1C1;
+        font-size: 114%; }
+
+/*# sourceMappingURL=styles.css.map */
