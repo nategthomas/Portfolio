@@ -7,6 +7,9 @@
 @media all and (max-width: 599px) {
   body {
     font-size: 12px; } }
+@media all and (max-width: 380px) {
+  .header {
+    font-size: 8px; } }
 body {
   margin: 0px; }
 
@@ -38,19 +41,20 @@ body {
     text-align: center;
     color: white; }
     .header .wrapper-b #name {
-      margin: -6px;
+      font-size: 500%;
       display: inline-block;
-      font-size: calc(125% + 5vw);
       white-space: nowrap; }
     .header .wrapper-b #title {
       color: #CAE1FF;
-      word-spacing: .5em;
+      word-spacing: .3em;
       letter-spacing: .2em;
-      font-size: calc(45% + 1.3vw); }
+      font-size: 150%;
+      display: inline-block;
+      white-space: nowrap; }
 
 .container-prj {
   text-align: center;
-  margin: 0;
+  margin: 0 0 50px 0;
   padding: 25px 5px 20px 5px;
   font-family: "brandon-grotesque",sans-serif; }
   .container-prj .wrapper-prj {
