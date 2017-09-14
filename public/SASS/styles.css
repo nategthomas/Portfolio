@@ -16,7 +16,10 @@ body {
 .nav {
   padding: 10px 0px 10px 0px;
   background-color: #104E8B;
-  text-align: center; }
+  text-align: center;
+  position: fixed;
+  margin: auto;
+  width: 100%; }
   .nav .wrapper-a {
     text-align: center;
     max-width: 800px;
@@ -25,6 +28,25 @@ body {
     display: inline-block;
     box-sizing: border-box; }
     .nav .wrapper-a a {
+      text-decoration: none;
+      color: white;
+      margin: .8em;
+      font-size: 140%; }
+
+.nav-hidden {
+  padding: 10px 0px 10px 0px;
+  background-color: #104E8B;
+  text-align: center;
+  margin: auto;
+  width: 100%; }
+  .nav-hidden .wrapper-a {
+    text-align: center;
+    max-width: 800px;
+    margin: 0;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box; }
+    .nav-hidden .wrapper-a a {
       text-decoration: none;
       color: white;
       margin: .8em;
@@ -76,10 +98,54 @@ body {
           height: auto;
           width: 100%; }
       .container-prj .wrapper-prj a .prj-title {
-        font-size: 200%;
+        font-size: 160%;
         margin: 20px; }
       .container-prj .wrapper-prj a .prj-desc {
         color: #C1C1C1;
         font-size: 114%; }
+
+.about-wrapper {
+  background-color: #eeeeee; }
+  .about-wrapper .row {
+    padding: 20px 0 20px 0; }
+    .about-wrapper .row #line {
+      margin: 15px auto;
+      background-color: black;
+      height: 5px;
+      width: 75px; }
+    .about-wrapper .row #about-me {
+      text-align: center;
+      font-size: 175%;
+      letter-spacing: 2px;
+      color: #292b2c; }
+  .about-wrapper .row2 {
+    margin: 0 auto;
+    padding: 30px 0px 40px 0;
+    text-align: center; }
+    .about-wrapper .row2 #background-wrapper {
+      vertical-align: top;
+      display: inline-block;
+      max-width: 500px;
+      margin: 20px; }
+      .about-wrapper .row2 #background-wrapper #background {
+        text-align: left;
+        font-family: sans-serif;
+        line-height: 26px; }
+    .about-wrapper .row2 #skills-wrapper {
+      display: inline-block;
+      max-width: 500px;
+      vertical-align: top; }
+      .about-wrapper .row2 #skills-wrapper #skills {
+        text-align: left;
+        line-height: 26px; }
+  .about-wrapper #social-media {
+    padding-bottom: 30px; }
+    .about-wrapper #social-media #media-wrapper {
+      font-size: 55px;
+      text-align: center; }
+      .about-wrapper #social-media #media-wrapper #github-icon {
+        margin-right: 50px; }
+      .about-wrapper #social-media #media-wrapper #linkedin-icon {
+        margin-right: 50px; }
 
 /*# sourceMappingURL=styles.css.map */

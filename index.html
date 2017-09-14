@@ -4,27 +4,37 @@
     <meta charset="utf-8">
     <title>NateThomas</title>
     <link rel='stylesheet' href="public/SASS/styles.css" type='text/css'>
+    <script src="https://use.fontawesome.com/78d8a8ef87.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="//cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.2/jquery.scrollTo.min.js"></script>
+    <script src="app.js"></script>
   </head>
   <body>
-    <div class="nav">
-      <div class="wrapper-a">
-        <a href="" >Home</a>
-        <a href="#exactline">Projects</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+      <div class="nav">
+        <div class="wrapper-a">
+          <a id="homeTag" href="#" >Home</a>
+          <a id="projectTag" href="#">Projects</a>
+          <a id="aboutTag" href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
       </div>
-    </div>
-    <div class="header">
+      <div class="nav-hidden">
+        <div class="wrapper-a">
+          <a  href="#" >Home</a>
+          <a  href="#">Projects</a>
+          <a  href="#">About</a>
+          <a href="#">Contact</a>
+        </div>
+      </div>
+    <div id="homeSection" class="header">
       <div class="wrapper-b">
         <div id="name" >Nate Thomas</div>
         <div id='title' >Full-Stack Web Developer</div>
       </div>
     </div>
+    <a id="projectSection"></a>
     <div class="container-prj">
       <div class="wrapper-prj">
-        <a name="exactline"></a>
         <a href="https://voter-app1.herokuapp.com/">
           <div class='container-img'>
             <img class="prj-img" src='images/voterapp.png' alt width="440" height="237">
@@ -59,6 +69,41 @@
           <div class="prj-title">What Have You Done?</div>
           <div class="prj-desc">An app to help track the legislative activities of your local representatives.</div>
         </a>
+      </div>
+    </div>
+    <div id="aboutSection" class="about-wrapper">
+      <div class="row">
+        <div id='line'></div>
+        <div id="about-me">
+          ABOUT ME
+        </div>
+      </div>
+      <div class="row2">
+        <div id="background-wrapper">
+          <div id="background">
+            My name is Nate Thomas.  I am a self-taught web developer enthusiastic about learning new web
+            technologies, creating elegant and responsive sites, and building apps to solve real life problems.
+          </div>
+        </div>
+        <div id="skills-wrapper">
+          <div id="skills">
+            <ul>
+              <li><b>Languages:</b> JavaScript</li>
+              <li><b>Web technologies:</b> Node.js, HTML5, CSS3, SASS, MongoDB, Mongoose.</li>
+              <li><b>Frameworks and Libraries:</b> Angular, Express, Bootstrap, jQuery, Socket.io</li>
+              <li><b>Tools:</b> Git version control, Github, Atom, command line</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div id="social-media">
+        <div id="media-wrapper">
+          <i id="github-icon" class="fa fa-github" aria-hidden="true"></i>
+          <i id ="linkedin-icon" class="fa fa-linkedin-square" aria-hidden="true"></i>
+          <i class="fa fa-free-code-camp" aria-hidden="true"></i>
+
+
+        </div>
       </div>
     </div>
   </body>
