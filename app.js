@@ -1,14 +1,23 @@
 $(document).ready(function() {
-  var target = document.getElementById("projectSection");
-  $("#projectTag").click(function() {
-    $(window).scrollTo(target, 1000);
+  var navHeight = 55;
+  var hometarget = $("#homeSection").offset().top;
+  var homeTarget = hometarget - navHeight;
+  $("#homeTag").click(function() {
+    $(window).scrollTo(homeTarget, 1000);
   })
-  var aboutTarget = document.getElementById("aboutSection")
+  var targetproj = $(".container-prj").offset().top;
+  var targetProj = targetproj - navHeight;
+  $("#projectTag").click(function() {
+    $(window).scrollTo(targetProj, 1000);
+  })
+  var abouttarget = $("#aboutSection").offset().top;
+  var aboutTarget = abouttarget - navHeight;
   $("#aboutTag").click(function() {
     $(window).scrollTo(aboutTarget, 1000);
   })
-  var homeTarget = document.getElementById("homeSection")
-  $("#homeTag").click(function() {
-    $(window).scrollTo(homeTarget, 1000);
+  var contacttarget = $("#gform").offset().top;
+  var contactTarget = contacttarget - navHeight;
+  $("#contactTag").click(function() {
+    $(window).scrollTo(contactTarget, 1000);
   })
 });

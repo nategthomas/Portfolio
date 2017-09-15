@@ -106,14 +106,14 @@ body {
 
 .about-wrapper {
   background-color: #eeeeee; }
-  .about-wrapper .row {
+  .about-wrapper .row1 {
     padding: 20px 0 20px 0; }
-    .about-wrapper .row #line {
+    .about-wrapper .row1 #line {
       margin: 15px auto;
       background-color: black;
       height: 5px;
       width: 75px; }
-    .about-wrapper .row #about-me {
+    .about-wrapper .row1 #about-me {
       text-align: center;
       font-size: 175%;
       letter-spacing: 2px;
@@ -143,9 +143,19 @@ body {
     .about-wrapper #social-media #media-wrapper {
       font-size: 55px;
       text-align: center; }
+      .about-wrapper #social-media #media-wrapper a {
+        text-decoration: none;
+        color: inherit; }
       .about-wrapper #social-media #media-wrapper #github-icon {
-        margin-right: 50px; }
+        margin-right: 50px;
+        cursor: pointer; }
       .about-wrapper #social-media #media-wrapper #linkedin-icon {
         margin-right: 50px; }
+
+#gform {
+  padding: 75px; }
+  #gform .contact-title {
+    margin: 0px 0px 35px 0px;
+    font-size: 175%; }
 
 /*# sourceMappingURL=styles.css.map */
