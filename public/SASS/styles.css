@@ -1,17 +1,18 @@
 @media all and (min-width: 960px) {
   body {
     font-size: 18px; } }
-@media all and (max-width: 959px) and (min-width: 600px) {
+@media all and (max-width: 959px) and (min-width: 602px) {
   body {
     font-size: 16px; } }
-@media all and (max-width: 599px) {
+@media all and (max-width: 601px) {
   body {
     font-size: 12px; } }
-@media all and (max-width: 380px) {
-  .header {
-    font-size: 8px; } }
 body {
-  margin: 0px; }
+  margin: 0px;
+  min-width: 600px; }
+
+.active {
+  border-top: 4px solid white; }
 
 .nav {
   padding: 10px 0px 10px 0px;
@@ -19,7 +20,8 @@ body {
   text-align: center;
   position: fixed;
   margin: auto;
-  width: 100%; }
+  width: 100%;
+  min-width: 600px; }
   .nav .wrapper-a {
     text-align: center;
     max-width: 800px;
@@ -31,26 +33,8 @@ body {
       text-decoration: none;
       color: white;
       margin: .8em;
-      font-size: 140%; }
-
-.nav-hidden {
-  padding: 10px 0px 10px 0px;
-  background-color: #104E8B;
-  text-align: center;
-  margin: auto;
-  width: 100%; }
-  .nav-hidden .wrapper-a {
-    text-align: center;
-    max-width: 800px;
-    margin: 0;
-    width: 100%;
-    display: inline-block;
-    box-sizing: border-box; }
-    .nav-hidden .wrapper-a a {
-      text-decoration: none;
-      color: white;
-      margin: .8em;
-      font-size: 140%; }
+      font-size: 140%;
+      padding: 8px 0; }
 
 .header {
   background-color: #4682B4;
@@ -157,5 +141,15 @@ body {
   #gform .contact-title {
     margin: 0px 0px 35px 0px;
     font-size: 175%; }
+
+#thankyou_message {
+  text-align: center;
+  margin: 100px 60px; }
+
+#footer {
+  position: absolute;
+  width: 100%;
+  height: 55px;
+  background-color: #104E8B; }
 
 /*# sourceMappingURL=styles.css.map */
